@@ -223,9 +223,9 @@ pageClass: routes
 
 <Route author="cssxsh" example="/dlsite/new/home" path="/dlsite/new/:type" :paramsDesc="['类型，如下表']">
 
-| 同人 | 漫画  | 软件 | 同人 (R18) | 漫画 (R18) | 美少女游戏 | 乙女  | BL |
-| ---- | ----- | ---- | ---------- | ---------- | ---------- | ----- | -- |
-| home | comic | soft | maniax     | books      | pro        | girls | bl |
+| 同人 | 漫画  | 软件 | 同人 (R18) | 漫画 (R18) | 美少女游戏 | 乙女  | BL  |
+| ---- | ----- | ---- | ---------- | ---------- | ---------- | ----- | --- |
+| home | comic | soft | maniax     | books      | pro        | girls | bl  |
 
 </Route>
 
@@ -235,7 +235,7 @@ pageClass: routes
 
 ### Ci-en 创作者文章
 
-<Route author="nczitzk" example="/dlsite/ci-en/:id/article" path="/dlsite/ci-en/7400/article" :paramsDesc="['创作者 id，可在对应创作者页 URL 中找到']"/>
+<Route author="nczitzk" example="/dlsite/ci-en/7400/article" path="/dlsite/ci-en/:id/article" :paramsDesc="['创作者 id，可在对应创作者页 URL 中找到']"/>
 
 ## ebb.io
 
@@ -295,9 +295,9 @@ pageClass: routes
 
 <Route author="Fatpandac" example="/iwara/users/kelpie/video" path="/iwara/users/:username/:type?" :paramsDesc="['用户昵称', 'type 默认为 video']" radar="1" rssbud="1">
 
-| type |  视频 |  图片 |
-| :--: | :---: | :---: |
-| 参数 | video | image |
+| type  | 视频  | 图片  |
+| :---: | :---: | :---: |
+| 参数  | video | image |
 
 </Route>
 
@@ -680,8 +680,8 @@ Sources
 
 关键字（供参考）
 
-| YAOI | 女性向 | NTR | 非 H | 3D | 獵奇 |
-| ---- | ------ | --- | ---- | -- | ---- |
+| YAOI | 女性向 | NTR | 非 H | 3D  | 獵奇 |
+| ---- | ------ | --- | ---- | --- | ---- |
 
 </Route>
 
